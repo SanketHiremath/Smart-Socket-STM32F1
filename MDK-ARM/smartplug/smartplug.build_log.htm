@@ -1,0 +1,99 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.25.2.0
+Copyright (C) 2018 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Sanket S, Adappt, LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.25.2.0
+Toolchain Path:  C:\kiel\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 6 (build 750)
+Assembler:       Armasm.exe V5.06 update 6 (build 750)
+Linker/Locator:  ArmLink.exe V5.06 update 6 (build 750)
+Library Manager: ArmAr.exe V5.06 update 6 (build 750)
+Hex Converter:   FromElf.exe V5.06 update 6 (build 750)
+CPU DLL:         SARMCM3.DLL V5.25.2.0
+Dialog DLL:      DCM.DLL V1.17.1.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.0.1.0
+Dialog DLL:      TCM.DLL V1.35.1.0
+ 
+<h2>Project:</h2>
+C:\Users\Subramany\Desktop\st32projects\smartplug\MDK-ARM\smartplug.uvprojx
+Project File Date:  03/07/2019
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 6 (build 750)', folder: 'C:\kiel\ARM\ARMCC\Bin'
+Build target 'smartplug'
+compiling main.c...
+../Inc/ssd1306.h(238): warning:  #1295-D: Deprecated declaration ssd1306_I2C_Init - give arg types
+  void ssd1306_I2C_Init();
+../Src/main.c(158): warning:  #188-D: enumerated type mixed with another type
+  		SSD1306_Fill(0); 
+../Src/main.c(199): warning:  #188-D: enumerated type mixed with another type
+  		   SSD1306_Puts(char_buff,&Font_11x18,1);	
+../Src/main.c(202): warning:  #188-D: enumerated type mixed with another type
+         SSD1306_Puts("hr",&Font_11x18,1);			
+../Src/main.c(221): warning:  #188-D: enumerated type mixed with another type
+  					 	SSD1306_Fill(0); 
+../Src/main.c(276): warning:  #188-D: enumerated type mixed with another type
+         SSD1306_Putc('+',&Font_11x18,1);
+../Src/main.c(278): warning:  #188-D: enumerated type mixed with another type
+  		   SSD1306_Puts(chartwo_buff,&Font_11x18,1);
+../Src/main.c(298): warning:  #188-D: enumerated type mixed with another type
+  			 SSD1306_Fill(0);
+../Src/main.c(301): warning:  #188-D: enumerated type mixed with another type
+         SSD1306_Puts("SWITCHED",&Font_7x10,1);			
+../Src/main.c(303): warning:  #188-D: enumerated type mixed with another type
+  			 SSD1306_Puts("OFF",&Font_7x10,1);
+../Src/main.c(316): warning:  #188-D: enumerated type mixed with another type
+         SSD1306_Puts("TIMER",&Font_7x10,1);			
+../Src/main.c(318): warning:  #188-D: enumerated type mixed with another type
+  			 SSD1306_Puts("STARTED",&Font_7x10,1);
+../Src/main.c(334): warning:  #188-D: enumerated type mixed with another type
+  		    SSD1306_Puts(char_buff,&Font_11x18,1);
+../Src/main.c(336): warning:  #188-D: enumerated type mixed with another type
+         SSD1306_Putc('+',&Font_11x18,1);
+../Src/main.c(338): warning:  #188-D: enumerated type mixed with another type
+  		   SSD1306_Puts("0",&Font_11x18,1);
+../Src/main.c(341): warning:  #188-D: enumerated type mixed with another type
+          SSD1306_Puts("TIMER",&Font_7x10,1);			
+../Src/main.c(343): warning:  #188-D: enumerated type mixed with another type
+  			  SSD1306_Puts("RESET",&Font_7x10,1);
+../Src/main.c(372): warning:  #188-D: enumerated type mixed with another type
+          SSD1306_Puts("TIMER",&Font_7x10,1);			
+../Src/main.c(374): warning:  #188-D: enumerated type mixed with another type
+  			  SSD1306_Puts("COMPLETE",&Font_7x10,1);
+../Src/main.c: 19 warnings, 0 errors
+linking...
+Program Size: Code=14180 RO-data=5612 RW-data=104 ZI-data=2912  
+FromELF: creating hex file...
+"smartplug\smartplug.axf" - 0 Error(s), 19 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.3.0.pack
+                ARM.CMSIS.5.3.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.1.1
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32F1xx_DFP.2.2.0.pack
+                Keil.STM32F1xx_DFP.2.2.0
+                STMicroelectronics STM32F1 Series Device Support, Drivers and Examples
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_smartplug
+  C:\kiel\ARM\PACK\ARM\CMSIS\5.3.0\CMSIS\Include
+  C:\kiel\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.1.1
+Build Time Elapsed:  00:00:06
+</pre>
+</body>
+</html>
